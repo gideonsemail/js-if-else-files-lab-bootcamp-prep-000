@@ -2,9 +2,9 @@ var name = "Joe"
 var height = "74"
 
 if (name === "Susan") {
-  "The name is correct"
-} else "WTF man?"
-
+  console.log("The name is correct")
+} else { console.log("WTF man?")
+}
 // Don't worry about this
 module.exports = { name, height
 }
